@@ -1,6 +1,6 @@
 {
   "name": "random-username-gen",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "A random username generator with customization options.",
   "type": "module",
   "exports": {
