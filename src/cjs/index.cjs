@@ -1,5 +1,5 @@
-const adjectivesArray = require('./adjectives.js');
-const nounsArray = require('./nouns.js');
+const adjectivesArray = require('./adjectives.cjs');
+const nounsArray = require('./nouns.cjs');
 
 function getRandomElement(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
