@@ -1,5 +1,5 @@
-const adjectives = require('./adjectives.js');
-const nouns = require('./nouns.js');
+const adjectivesArray = require('./adjectives.js');
+const nounsArray = require('./nouns.js');
 
 function getRandomElement(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
@@ -7,7 +7,7 @@ function getRandomElement(arr) {
 
 function generateRandomUsername(userInput, options = {}) {
     const {
-        length = 12,
+        length = 50,
         separator = '-',
         wordList = 'default',
         ensureUnique = false,
@@ -15,8 +15,8 @@ function generateRandomUsername(userInput, options = {}) {
 
     let wordLists = {
         default: {
-            adjectives,
-            nouns
+            adjectives: adjectivesArray,
+            nouns: nounsArray
         }
     };
 
