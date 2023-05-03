@@ -1,8 +1,8 @@
 {
   "name": "random-username-gen",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A random username generator with customization options.",
-  "type":"module",
+  "type": "module",
   "exports": {
     "import": "./src/esm/index.js",
     "require": "./src/cjs/index.js"
@@ -24,5 +24,6 @@
   "bugs": {
     "url": "https://github.com/harshkumar742/random-username/issues"
   },
-  "homepage": "https://github.com/harshkumar742/random-username#readme"
+  "homepage": "https://github.com/harshkumar742/random-username#readme",
+  "main": "index.js"
 }

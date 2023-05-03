@@ -1,5 +1,5 @@
-import adjectives from './adjectives.json';
-import nouns from './nouns.json';
+import { adjectives } from './adjectives.js';
+import { nouns }  from './nouns.js';
 
 function getRandomElement(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
@@ -18,11 +18,6 @@ function generateRandomUsername(userInput, options = {}) {
             adjectives,
             nouns,
         },
-        // Add more word lists here, e.g.:
-        // animals: {
-        //   adjectives: [...],
-        //   nouns: [...],
-        // },
     };
 
     if (!wordLists[wordList]) {
