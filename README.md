@@ -6,9 +6,9 @@ A random username generator with customization options. Generate unique and comp
 
 Install the package using npm:
 
-\`\`\`bash
+```bash
 npm install random-username-gen
-\`\`\`
+```
 
 ## Usage
 
